@@ -1,0 +1,12 @@
+/*
+  Localizable.strings
+  BLECore
+
+  Created by Paul Calnan on 10/8/18.
+  Copyright © 2018 Bose Corporation. All rights reserved.
+*/
+
+"BLECoreError.scanAlreadyInProgress" = "Scan already in progress";
+"BLECoreError.missingService" = "Missing service: %@";
+"BLECoreError.incorrectServiceType" = "Incorrect service type";
+"BLECoreError.noMatchingDeviceTypesFound" = "No matching device types found";

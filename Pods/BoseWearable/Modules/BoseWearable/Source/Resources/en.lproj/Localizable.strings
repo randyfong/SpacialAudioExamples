@@ -1,0 +1,39 @@
+/*
+  Localizable.strings
+  BoseWearable
+
+  Created by Paul Calnan on 10/8/18.
+  Copyright © 2018 Bose Corporation. All rights reserved.
+*/
+
+"SensorType.accelerometer" = "Accelerometer";
+"SensorType.gyroscope" = "Gyroscope";
+"SensorType.rotation" = "Rotation";
+"SensorType.gameRotation" = "Game rotation";
+"SensorType.orientation" = "Orientation";
+"SensorType.magnetometer" = "Magnetometer";
+"SensorType.uncalibratedMagnetometer" = "Uncalibrated magnetometer";
+
+"GestureType.singleTap" = "Single-tap";
+"GestureType.doubleTap" = "Double-tap";
+"GestureType.headNod" = "Head nod";
+"GestureType.headShake" = "Head shake";
+
+"ErrorCode.invalidRequestLength" = "Invalid request length";
+"ErrorCode.invalidSamplePeriod" = "Invalid sample period";
+"ErrorCode.invalidSensorConfiguration" = "Invalid sensor configuration";
+"ErrorCode.configExceedsMaxThroughput" = "Configuration exceeds maximum available throughput";
+"ErrorCode.wearableSensorServiceUnavailable" = "Wearable sensor service unavailable";
+"ErrorCode.timeout" = "Timeout";
+"BoseWearableError.wearableDeviceError" = "Wearable device error: %@";
+"BoseWearableError.invalidResponse" = "Invalid response";
+"BoseWearableError.firmwareUpdateRequired" = "This device requires a firmware update";
+"BoseWearableError.unsupportedDevice" = "This device is not supported";
+"BoseWearableError.missingGestureInformation" = "Unable to read gesture configuration because required gesture information has not yet been received";
+
+"VectorAccuracy.unreliable" = "Unreliable";
+"VectorAccuracy.low" = "Low";
+"VectorAccuracy.medium" = "Medium";
+"VectorAccuracy.high" = "High";
+
+"SamplePeriod.description" = "%d ms";

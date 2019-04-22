@@ -1,0 +1,21 @@
+{
+  "name": "Logging",
+  "version": "2.0.2",
+  "summary": "Bose Logging",
+  "description": "Bose Logging Library for iOS",
+  "homepage": "https://developer.bose.com",
+  "authors": "Bose Corporation",
+  "source": {
+    "git": "git@github.com:BoseWCTC/BoseWearable-iOS.git",
+    "tag": "2.0.2"
+  },
+  "license": {
+    "type": "Proprietary",
+    "text": "Bose Confidential"
+  },
+  "platforms": {
+    "ios": "11.4"
+  },
+  "swift_version": "4.2",
+  "source_files": "Modules/Logging/Source/**/*.swift"
+}

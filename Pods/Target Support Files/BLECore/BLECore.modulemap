@@ -1,0 +1,6 @@
+framework module BLECore {
+  umbrella header "BLECore-umbrella.h"
+
+  export *
+  module * { export * }
+}

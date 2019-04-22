@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B15EA82219E392600C5F77A /* Jahzzar_The_Shine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B15EA81219E392600C5F77A /* Jahzzar_The_Shine.mp3 */; };
+		3BAF2177216D1ADB00F35BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF2176216D1ADB00F35BA6 /* AppDelegate.swift */; };
+		3BAF2179216D1ADB00F35BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF2178216D1ADB00F35BA6 /* ViewController.swift */; };
+		3BAF217E216D1ADB00F35BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF217C216D1ADB00F35BA6 /* Main.storyboard */; };
+		3BAF2180216D1ADB00F35BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF217F216D1ADB00F35BA6 /* Assets.xcassets */; };
+		3BAF2183216D1ADB00F35BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF2181216D1ADB00F35BA6 /* LaunchScreen.storyboard */; };
+		3BAF218F216D1C1000F35BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF218E216D1C1000F35BA6 /* AppDelegate.swift */; };
+		3BAF2191216D1C1000F35BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF2190216D1C1000F35BA6 /* ViewController.swift */; };
+		3BAF2196216D1C1000F35BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF2194216D1C1000F35BA6 /* Main.storyboard */; };
+		3BAF2198216D1C1100F35BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF2197216D1C1100F35BA6 /* Assets.xcassets */; };
+		3BAF219B216D1C1100F35BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF2199216D1C1100F35BA6 /* LaunchScreen.storyboard */; };
+		5BACC6BC91DD116873A84E00 /* Pods_SpatialAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC71EB19043CD3214B310D0 /* Pods_SpatialAudio.framework */; };
+		C2131462226DFE3F00C8C5F2 /* AudioMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2131461226DFE3F00C8C5F2 /* AudioMixer.swift */; };
+		EEA631BC226670690055A0A2 /* fishermansWharf_L.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEA631BA226670690055A0A2 /* fishermansWharf_L.mp3 */; };
+		EEA631BD226670690055A0A2 /* fishermansWharf_R.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEA631BB226670690055A0A2 /* fishermansWharf_R.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BC71EB19043CD3214B310D0 /* Pods_SpatialAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpatialAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B15EA81219E392600C5F77A /* Jahzzar_The_Shine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jahzzar_The_Shine.mp3; sourceTree = "<group>"; };
+		3B896A04217A47D40010EEB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3BAF2174216D1ADB00F35BA6 /* HandsFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandsFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAF2176216D1ADB00F35BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BAF2178216D1ADB00F35BA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BAF217D216D1ADB00F35BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BAF217F216D1ADB00F35BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BAF2182216D1ADB00F35BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BAF2184216D1ADB00F35BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BAF218C216D1C1000F35BA6 /* SpatialAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAF218E216D1C1000F35BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BAF2190216D1C1000F35BA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		3BAF2195216D1C1000F35BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BAF2197216D1C1100F35BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BAF219A216D1C1100F35BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BAF219C216D1C1100F35BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE2EB9C03D759905855AEFC /* Pods-SpatialAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpatialAudio.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SpatialAudio/Pods-SpatialAudio.release.xcconfig"; sourceTree = "<group>"; };
+		C2131461226DFE3F00C8C5F2 /* AudioMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMixer.swift; sourceTree = "<group>"; };
+		EBA2FE6D0F1CA9A4CF40A94D /* Pods-SpatialAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpatialAudio.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SpatialAudio/Pods-SpatialAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		EEA631BA226670690055A0A2 /* fishermansWharf_L.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fishermansWharf_L.mp3; sourceTree = "<group>"; };
+		EEA631BB226670690055A0A2 /* fishermansWharf_R.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fishermansWharf_R.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BAF2171216D1ADB00F35BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAF2189216D1C1000F35BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BACC6BC91DD116873A84E00 /* Pods_SpatialAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BAF2152216D1AA100F35BA6 = {
+			isa = PBXGroup;
+			children = (
+				3B896A04217A47D40010EEB5 /* README.md */,
+				3BAF2175216D1ADB00F35BA6 /* HandsFree */,
+				3BAF2174216D1ADB00F35BA6 /* HandsFree.app */,
+				3BAF218D216D1C1000F35BA6 /* SpatialAudio */,
+				3BAF218C216D1C1000F35BA6 /* SpatialAudio.app */,
+				99529639DC064B49789F63EF /* Pods */,
+				A0C0094C81D2D7E188D8EAF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BAF2175216D1ADB00F35BA6 /* HandsFree */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF2176216D1ADB00F35BA6 /* AppDelegate.swift */,
+				3BAF2178216D1ADB00F35BA6 /* ViewController.swift */,
+				3BAF217C216D1ADB00F35BA6 /* Main.storyboard */,
+				3BAF217F216D1ADB00F35BA6 /* Assets.xcassets */,
+				3BAF2181216D1ADB00F35BA6 /* LaunchScreen.storyboard */,
+				3BAF2184216D1ADB00F35BA6 /* Info.plist */,
+			);
+			path = HandsFree;
+			sourceTree = "<group>";
+		};
+		3BAF218D216D1C1000F35BA6 /* SpatialAudio */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF218E216D1C1000F35BA6 /* AppDelegate.swift */,
+				3BAF2190216D1C1000F35BA6 /* ViewController.swift */,
+				3BAF2194216D1C1000F35BA6 /* Main.storyboard */,
+				3BAF2197216D1C1100F35BA6 /* Assets.xcassets */,
+				3BAF2199216D1C1100F35BA6 /* LaunchScreen.storyboard */,
+				3BAF219C216D1C1100F35BA6 /* Info.plist */,
+				3B15EA81219E392600C5F77A /* Jahzzar_The_Shine.mp3 */,
+				EEA631BA226670690055A0A2 /* fishermansWharf_L.mp3 */,
+				EEA631BB226670690055A0A2 /* fishermansWharf_R.mp3 */,
+				C2131461226DFE3F00C8C5F2 /* AudioMixer.swift */,
+			);
+			path = SpatialAudio;
+			sourceTree = "<group>";
+		};
+		99529639DC064B49789F63EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBA2FE6D0F1CA9A4CF40A94D /* Pods-SpatialAudio.debug.xcconfig */,
+				BBE2EB9C03D759905855AEFC /* Pods-SpatialAudio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0C0094C81D2D7E188D8EAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC71EB19043CD3214B310D0 /* Pods_SpatialAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BAF2173216D1ADB00F35BA6 /* HandsFree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAF2185216D1ADB00F35BA6 /* Build configuration list for PBXNativeTarget "HandsFree" */;
+			buildPhases = (
+				3BAF2170216D1ADB00F35BA6 /* Sources */,
+				3BAF2171216D1ADB00F35BA6 /* Frameworks */,
+				3BAF2172216D1ADB00F35BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandsFree;
+			productName = HandsFreeBluetooth;
+			productReference = 3BAF2174216D1ADB00F35BA6 /* HandsFree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BAF218B216D1C1000F35BA6 /* SpatialAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAF219D216D1C1100F35BA6 /* Build configuration list for PBXNativeTarget "SpatialAudio" */;
+			buildPhases = (
+				0D34819EF9C18BD2BA2D4AAF /* [CP] Check Pods Manifest.lock */,
+				3BAF2188216D1C1000F35BA6 /* Sources */,
+				3BAF2189216D1C1000F35BA6 /* Frameworks */,
+				3BAF218A216D1C1000F35BA6 /* Resources */,
+				2198FA4251E2F31ABD106E7B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialAudio;
+			productName = SpatialAudio;
+			productReference = 3BAF218C216D1C1000F35BA6 /* SpatialAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BAF2153216D1AA100F35BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Bose;
+				TargetAttributes = {
+					3BAF2173216D1ADB00F35BA6 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					3BAF218B216D1C1000F35BA6 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 3BAF2156216D1AA100F35BA6 /* Build configuration list for PBXProject "CodeSamples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BAF2152216D1AA100F35BA6;
+			productRefGroup = 3BAF2152216D1AA100F35BA6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BAF2173216D1ADB00F35BA6 /* HandsFree */,
+				3BAF218B216D1C1000F35BA6 /* SpatialAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BAF2172216D1ADB00F35BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF2183216D1ADB00F35BA6 /* LaunchScreen.storyboard in Resources */,
+				3BAF2180216D1ADB00F35BA6 /* Assets.xcassets in Resources */,
+				3BAF217E216D1ADB00F35BA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAF218A216D1C1000F35BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B15EA82219E392600C5F77A /* Jahzzar_The_Shine.mp3 in Resources */,
+				EEA631BC226670690055A0A2 /* fishermansWharf_L.mp3 in Resources */,
+				3BAF219B216D1C1100F35BA6 /* LaunchScreen.storyboard in Resources */,
+				3BAF2198216D1C1100F35BA6 /* Assets.xcassets in Resources */,
+				EEA631BD226670690055A0A2 /* fishermansWharf_R.mp3 in Resources */,
+				3BAF2196216D1C1000F35BA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D34819EF9C18BD2BA2D4AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpatialAudio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2198FA4251E2F31ABD106E7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpatialAudio/Pods-SpatialAudio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BLECore/BLECore.framework",
+				"${BUILT_PRODUCTS_DIR}/BoseWearable/BoseWearable.framework",
+				"${BUILT_PRODUCTS_DIR}/Logging/Logging.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BLECore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoseWearable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpatialAudio/Pods-SpatialAudio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BAF2170216D1ADB00F35BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF2177216D1ADB00F35BA6 /* AppDelegate.swift in Sources */,
+				3BAF2179216D1ADB00F35BA6 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAF2188216D1C1000F35BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF218F216D1C1000F35BA6 /* AppDelegate.swift in Sources */,
+				3BAF2191216D1C1000F35BA6 /* ViewController.swift in Sources */,
+				C2131462226DFE3F00C8C5F2 /* AudioMixer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BAF217C216D1ADB00F35BA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF217D216D1ADB00F35BA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BAF2181216D1ADB00F35BA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF2182216D1ADB00F35BA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3BAF2194216D1C1000F35BA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF2195216D1C1000F35BA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BAF2199216D1C1100F35BA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF219A216D1C1100F35BA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BAF216B216D1AA200F35BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BAF216C216D1AA200F35BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BAF2186216D1ADB00F35BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6XWAR3GT9;
+				INFOPLIST_FILE = HandsFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bose.HandsFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BAF2187216D1ADB00F35BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6XWAR3GT9;
+				INFOPLIST_FILE = HandsFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bose.HandsFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BAF219E216D1C1100F35BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA2FE6D0F1CA9A4CF40A94D /* Pods-SpatialAudio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6XWAR3GT9;
+				INFOPLIST_FILE = SpatialAudio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bose.SpatialAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BAF219F216D1C1100F35BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE2EB9C03D759905855AEFC /* Pods-SpatialAudio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6XWAR3GT9;
+				INFOPLIST_FILE = SpatialAudio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bose.SpatialAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BAF2156216D1AA100F35BA6 /* Build configuration list for PBXProject "CodeSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAF216B216D1AA200F35BA6 /* Debug */,
+				3BAF216C216D1AA200F35BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAF2185216D1ADB00F35BA6 /* Build configuration list for PBXNativeTarget "HandsFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAF2186216D1ADB00F35BA6 /* Debug */,
+				3BAF2187216D1ADB00F35BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAF219D216D1C1100F35BA6 /* Build configuration list for PBXNativeTarget "SpatialAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAF219E216D1C1100F35BA6 /* Debug */,
+				3BAF219F216D1C1100F35BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BAF2153216D1AA100F35BA6 /* Project object */;
+}

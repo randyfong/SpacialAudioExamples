@@ -1,0 +1,6 @@
+framework module Pods_SpatialAudio {
+  umbrella header "Pods-SpatialAudio-umbrella.h"
+
+  export *
+  module * { export * }
+}

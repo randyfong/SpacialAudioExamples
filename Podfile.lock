@@ -1,0 +1,59 @@
+PODS:
+  - BLECore (2.0.2):
+    - Logging (= 2.0.2)
+  - BoseWearable (2.0.2):
+    - BLECore (= 2.0.2)
+    - BoseWearable/Core (= 2.0.2)
+    - Logging (= 2.0.2)
+  - BoseWearable/Core (2.0.2):
+    - BLECore (= 2.0.2)
+    - Logging (= 2.0.2)
+  - BoseWearable/SearchUI (2.0.2):
+    - BLECore (= 2.0.2)
+    - BoseWearable/Core
+    - Logging (= 2.0.2)
+  - Logging (2.0.2)
+  - SwiftLint (0.29.2)
+
+DEPENDENCIES:
+  - "BLECore (from `git@github.com:BoseWCTC/BoseWearable-iOS.git`, branch `master`)"
+  - "BoseWearable (from `git@github.com:BoseWCTC/BoseWearable-iOS.git`, branch `master`)"
+  - "BoseWearable/SearchUI (from `git@github.com:BoseWCTC/BoseWearable-iOS.git`, branch `master`)"
+  - "Logging (from `git@github.com:BoseWCTC/BoseWearable-iOS.git`, branch `master`)"
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  BLECore:
+    :branch: master
+    :git: "git@github.com:BoseWCTC/BoseWearable-iOS.git"
+  BoseWearable:
+    :branch: master
+    :git: "git@github.com:BoseWCTC/BoseWearable-iOS.git"
+  Logging:
+    :branch: master
+    :git: "git@github.com:BoseWCTC/BoseWearable-iOS.git"
+
+CHECKOUT OPTIONS:
+  BLECore:
+    :commit: 07ccd6eb79e2ca1328b0881c7cdb2c1fcddd9898
+    :git: "git@github.com:BoseWCTC/BoseWearable-iOS.git"
+  BoseWearable:
+    :commit: 07ccd6eb79e2ca1328b0881c7cdb2c1fcddd9898
+    :git: "git@github.com:BoseWCTC/BoseWearable-iOS.git"
+  Logging:
+    :commit: 07ccd6eb79e2ca1328b0881c7cdb2c1fcddd9898
+    :git: "git@github.com:BoseWCTC/BoseWearable-iOS.git"
+
+SPEC CHECKSUMS:
+  BLECore: fb462f234c6d6b1733b6d6f0ba950cae92799059
+  BoseWearable: b37e42d6ee829bb38b3061e8ceaa48ee53f750f6
+  Logging: 843db36534128536179308bb83cdc9d7069497fa
+  SwiftLint: 47df60bdea6e7e902b193b6596db8683aafd86a3
+
+PODFILE CHECKSUM: b7648ecd5bc0ace3d209a356f26afca4aff8d3fb
+
+COCOAPODS: 1.6.1

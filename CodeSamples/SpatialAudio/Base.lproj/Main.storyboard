@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ES7-dB-7t9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2rt-nM-8yX">
+            <objects>
+                <viewController id="ES7-dB-7t9" customClass="ViewController" customModule="SpatialAudio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x61-Ws-z7b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lT-Xn-L78">
+                                <rect key="frame" x="163" y="243" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="233" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWx-Rf-hYB">
+                                <rect key="frame" x="32" y="162" width="311" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Start Playing"/>
+                                <connections>
+                                    <action selector="togglePlaying:" destination="ES7-dB-7t9" eventType="touchUpInside" id="Hw6-bn-BX9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eWx-Rf-hYB" firstAttribute="top" secondItem="5IS-TR-RHj" secondAttribute="top" constant="142" id="UfJ-us-e40"/>
+                            <constraint firstItem="9lT-Xn-L78" firstAttribute="top" secondItem="eWx-Rf-hYB" secondAttribute="bottom" constant="27" id="Zrb-Ao-ELq"/>
+                            <constraint firstItem="9lT-Xn-L78" firstAttribute="centerX" secondItem="x61-Ws-z7b" secondAttribute="centerX" id="eCx-sN-sSV"/>
+                            <constraint firstItem="eWx-Rf-hYB" firstAttribute="centerX" secondItem="x61-Ws-z7b" secondAttribute="centerX" id="h99-C1-CPt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5IS-TR-RHj"/>
+                    </view>
+                    <connections>
+                        <outlet property="startStopButton" destination="eWx-Rf-hYB" id="rcJ-XK-BX8"/>
+                        <outlet property="statusLabel" destination="9lT-Xn-L78" id="Gl7-hb-X6f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVT-Us-q09" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163.768115942029" y="-49.728260869565219"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,1506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C2F6DB134443C94DFD1479A741254A35 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EBE4DA4F60DE95FA016593AF24B0A80C /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		008372EFA6C31C1CD3080A29EC655337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140FBCE010BCAC65CBA05A4DCAB251D5 /* Foundation.framework */; };
+		02BDF066E2105871D7F3155933B27220 /* DeviceSearchTaskUserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1027D0E172CD80EB15CF00CEB3976ECD /* DeviceSearchTaskUserInterface.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		05A240A153B0644C57DF594F13FA1A01 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDC1B56429604663E4DD993E91809C /* BluetoothManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		072BFED6A6818814FD1FDDCA95E259A4 /* ServiceSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FC752D1BC354D539B9E38E96DAF83 /* ServiceSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0773EDF30080592635EA25800C851007 /* BLECore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2479C8EDC287110743E0AF99E031D7 /* BLECore-dummy.m */; };
+		0F69D6A3ECB28CC83254F51C8927296E /* DeviceSearchTaskUserInterfaceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A22226FA6E2623F97342539A92A12 /* DeviceSearchTaskUserInterfaceDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0FAE620C07AA0289E4D97D3BB0AB73FC /* GestureInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9ED97FB564034D3508FC61EC003995 /* GestureInformation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1615A86FF17667E1030A197EB3A79FDC /* RemoteWearableDeviceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A559AA91FBED9016E79B632806EA32DA /* RemoteWearableDeviceSession.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		17800A80273BBD527B59C7B65CC6D9F8 /* WearableDevice+EventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644256C411BF7444738E6D0DECC3F116 /* WearableDevice+EventListener.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		18162810559E2D1BC7500FE9CB365772 /* ServiceIdentification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8608B016CA0E35B22A9602295C1EF73 /* ServiceIdentification.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		18B79504EE2821C7E971821F56DBEBCD /* Log+BoseWearableCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5717BA9561E5245EB1DA7599391EE8A /* Log+BoseWearableCategories.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		193488361A6A4C013056E130FCAEAAA2 /* BLECoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D8F6195C6B504E646A0F8655DA788 /* BLECoreError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A91DC0C895EE3F44E56069B48E3D412 /* CancellableResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F001F003A5512A6848A05E6338BE8C /* CancellableResult.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E30ECE99AC31A58E670798217139FB0 /* BLECore+LoggingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A288303E707FCCBCB8FE51880073B /* BLECore+LoggingConfig.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1F766E55B701AB23BA3D3F9458EEEF63 /* BLECore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A3F0B979897FDD05D93821E3E6BD4E /* BLECore.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21B19494D2353A42238D0F238C8B7FFE /* SensorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F2D7C8B66D430315076BDFA331C20 /* SensorConfiguration.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		23D3172CF2688B6ADD7C901D1B5247B4 /* ListenerToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C45BC4DA151810CCF5D20E7A3A72A /* ListenerToken.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2444571455488148C5BA33F19E6B0C49 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E66533AB2DEBB1484CFEA73EE9BF6 /* Localizable.strings */; };
+		2642DB1D1D373F500405805FA6F0D68E /* SensorValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97858CDE58E8B5A336714D9688EB111A /* SensorValue.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2D7663134C76A29EE1F0D5749E1DD40C /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CF4010F7DF5A0ABDB8151F06214378 /* Logging.framework */; };
+		2E411F17D8EC65719BE45E632E2BA178 /* DeviceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1BB42EC95E945BD009BFDE33E72DE /* DeviceStatus.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F67FA730FF2061923B385ECD5F8FDBE /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E86D9A82A610F7B56B6BF5E66E13009 /* DeviceInformation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		33A11869CC9F47D350A9A2FFB991AFC8 /* WearableDeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF549C5859F1D37731C09093D2A18BD /* WearableDeviceInformation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3405EE7F71A632B516739D06A4B37E58 /* Data+IntegerByteOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A056CE1193772D0E6DCC8EF2A440853 /* Data+IntegerByteOrder.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		35189E3E06D4F7CF90DCE62C629FFF35 /* SamplePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FEA4E4E5251AAB6A6F72B0558398B3 /* SamplePeriod.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		35ACAF662D80CAC87DBB58969C6A5F2E /* SignalStrength+ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA2D45A5735BEBB6092111573AAF1DC /* SignalStrength+ImageName.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		362FEAA3C9AB857A85A79190D4CADA0D /* GestureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5DB2354545118B91F478BAF9663D6C /* GestureData.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		365EBEA739BA77866FF7D0A466D78723 /* Log+BLECoreCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FBC894AA99C505FFC10E371CBBA69 /* Log+BLECoreCategories.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		37EE8831967D6F7DC7E6D5C7F91AADC3 /* Pods-SpatialAudio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A8E1680313F54C7FCF0BE45FF8CCC /* Pods-SpatialAudio-dummy.m */; };
+		40A6C28A8DE243EC5B4B577135A517C6 /* BoseWearable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8CFC4C1DE6D0B744612D2AB57FFCA /* BoseWearable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4BC37FCE56F30E75AE4C4C61CE359E5B /* VectorAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E9A6B48BB5D30BC6A848AA553F387 /* VectorAccuracy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4DAAE3AA542FF421021A176B5B88DA77 /* WearableDeviceSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3E2A04130098298AC659E814F72D98 /* WearableDeviceSessionDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		509B1FBC61A97EB214D46930ACA6329D /* Logging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3439277FAEFC5AF85B8F2F8DA3D564 /* Logging-dummy.m */; };
+		514511D26EC649DC27CC2EA24964B03B /* SignalStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819C15E1E96248999B24B50D6041542 /* SignalStrength.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		52220DD5D896E8B61F58F45E2769E894 /* SensorMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B633CF8F7D18978D946BA71B64F1BC /* SensorMetadata.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		52F648C569F5154C45CE8BCC65ECA924 /* BoseWearableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66A6D64DA5DD0DC489F58F4ED9F663 /* BoseWearableError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5B535A237BE29BCC08C1526E653E3252 /* SensorDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E468ECD58D0DEAB55C7A9CE79A23A39 /* SensorDispatch.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D33D22F491C7655204BA60A0F054D0F /* GestureConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD00AADB6D68306B6CFD85D19D5AB0E /* GestureConfiguration.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6602ABDDFF3BF90D2124B285856B5FD1 /* Quaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57A6C877B5A46C8DD78C9F64F5E4A67 /* Quaternion.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		680B52F56E55ADB29D4516F2A0F8A205 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420507DFBF93546565E22DF3A20AB15 /* Service.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		69194C949BF850137DBBBE86C96AAB3A /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CF4010F7DF5A0ABDB8151F06214378 /* Logging.framework */; };
+		69AF4047EA935FB86892A2D5E4D90966 /* SearchUILocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E88405A819B1D8C33BF475C16209835E /* SearchUILocalizable.strings */; };
+		6E343D7BED7CD3B3E5885A47D4191313 /* SensorInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8862374F6EFBBCA926F33E83122F6B6 /* SensorInformation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6FB7F80164BB6A5F81F7D89F9AD056B4 /* ConditionallyUpgradeableBoseDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5727871D96BAD7A2584A1612F4AD951B /* ConditionallyUpgradeableBoseDevice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6FC87B71002D812DB9DAF122701ABD8A /* UIApplication+DisplayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D02599416DD9F80969D3402F727EB8 /* UIApplication+DisplayInfo.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		74127C0E05410FC5D5436CE7FACF64B8 /* DiscoveredDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DBB98501C0ED08420F33A67DDDBE99 /* DiscoveredDevice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7566B3C19D68229A3680C93438D08CF3 /* DeviceInformationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7BB542123D99A4ACB2D66A6D477B2 /* DeviceInformationServiceDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		79EC513A91A9E3448E5858BB7D952636 /* DiscoveryEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46262C10F9ED4F1021F53F8D6F2EFDFB /* DiscoveryEvent.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7A7710B2CF7019599FBBCB66CEF900B6 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4144FB5400359D10ADA89936061833 /* Vector.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7C021D96C59B80ED1441F1696EFA9201 /* WearableSensorServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF254D34FC7D9C2E96FA0C1CD87E99 /* WearableSensorServiceDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		82C33D2271A616DB678CE6285B05C2A3 /* QuaternionAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A72A2E0F61E131E5619093A1139E /* QuaternionAccuracy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		84C11AA31F6E763094873467677031D3 /* BLECore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A48DD7125A793EC65730492479CBD3 /* BLECore.framework */; };
+		850971022600058F14B9153998B866FA /* WearableSensorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4514224794F37FEDF7CCB22A2510DA39 /* WearableSensorService.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8575D420DB72ABE6EB47534E921FFFDE /* TypedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D63B7D41717848ECB7BCE066F9AE8 /* TypedNotification.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		87807D71F8C35C9CCC841468C1CBD5CF /* WearableDeviceEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A50299FC74098F8136F757B75A0BA6 /* WearableDeviceEvent.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C3517A2788DF1709E11F05052C5D2CA /* SensorTimestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1964802A7267315BA399D6D49EA6FB /* SensorTimestamp.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		93D0896B3615FDE4D48AFFAE7E0F6D57 /* DeviceInformationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348BF33764C8201AFF91C261F7CA8F59 /* DeviceInformationService.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		94645D5990E14B31C50CCCDBEE6BDEED /* SimulatedWearableDeviceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4141264CC0085E1C38253E79B315C /* SimulatedWearableDeviceSession.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		98C727F2509F688C844764F06D16DC97 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 514A4512AA309BC376EBEF88541F0C14 /* Localizable.strings */; };
+		9AC715FD06BBB8B112F3D9B3385AFA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140FBCE010BCAC65CBA05A4DCAB251D5 /* Foundation.framework */; };
+		9B0DED144C1429BCA8CDD96CED21820A /* ScaleFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F722FC00DFC7A66D7AA51FB5EC01C6 /* ScaleFunction.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D6A109399DB06076865EB8B49AF8B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140FBCE010BCAC65CBA05A4DCAB251D5 /* Foundation.framework */; };
+		A03D9C1F7888CC4B8F11CA10FB2D0C12 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CFF733D62A809464C89E4BBA045A22 /* Session.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A518F92516693F945FA0E37C53B36984 /* WearableDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763AB91671C6FF8D25E32986FDA7F5C /* WearableDevice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A5EB8024E205DA23458DCD276074D864 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374A81EE27BFBC11DF46C019432C569A /* Device.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AE96FD35CBB3EDCEB35694BAF4426B27 /* DeviceSearchTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DBD1AEC10CE01E67A24A029D9AD81 /* DeviceSearchTask.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B027651C1E83382F15EF783805CD96FE /* BoseWearable+LoggingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFDC1CD88C20DB34929E920C1CAB18 /* BoseWearable+LoggingConfig.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B42DE36A59C756F55DCAB88B0A551637 /* DeviceSearchModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FD361EB8D6D14F9C4498E8CFD7466 /* DeviceSearchModalViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B990E6A4A1D336446DECA31E352EB7BB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91349966CBC0AA87B423A88D7B1D3302 /* Result.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BB41E8A00CC1DBF8D2A9ACA51469C216 /* LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753F57ECFA3697C7C2159E1088950D6D /* LogFormatter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BC76C3A98BBFC9DC1B1F299AB6666C52 /* DeviceSearchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66B56EF40E56DBE7BF48FAA59E0E55 /* DeviceSearchMode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BFB18B1C63398331BC9B5B0A5862C55B /* SimulatedWearableDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C56DF40FC9C97FB105B432875E493 /* SimulatedWearableDevice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C486AF9123F9CAE7B41B5D06006DB39C /* DeviceIdentification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B87FECE01C01A91BFB0132D56562D /* DeviceIdentification.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C644AA79117732DF444988020B5311E5 /* SensorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835798B05EE860FE67487CC8BD0359B5 /* SensorSample.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C7AF90F146D32CCBF101757A383E73F1 /* DeviceSearchUserInterfaceIOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6922ABAF1D992F442D41A7455C075A /* DeviceSearchUserInterfaceIOS.storyboard */; };
+		CCA006E139D0688A01F0F993EEAFA9FE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF5D9863AEE2C77FFD9797955B33D0 /* SessionDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D0DA9DF399CE2A7BDEB915F80FCA3FA3 /* SensorDispatchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939C38F9F26CB5EEF4509340DFC8AB12 /* SensorDispatchHandler.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D4A60E323B1C338F1D62C0E2FD7D46AA /* WearableDeviceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6B652DC657A36C4BC214C958DD99E /* WearableDeviceSession.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D69D254CBC188EC60F3B348CA4099E0C /* BoseWearable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F666DBBF7BDF8772874F1BE6B643C242 /* BoseWearable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D75879FF831D8D0E3F7EFE293F32C043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0354B0A62406C34B718E4703AFE82EB /* Assets.xcassets */; };
+		D91B95B0597E3D023DFBC9D14E68B3CF /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE720D9F3D2A804A0CA50F7FDCBB80 /* Log.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DBD5F313F183A68E1DB9A4DB29597098 /* DeviceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D473230B9A1FDA904124456B9312CA /* DeviceListTableViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DDA495A37BBE9FFA0BEA68C80FD8B305 /* BLECore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6795A81E752F7100D6556FFFEB55F971 /* BLECore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF29E0B9513D3462D7AF2CCA899386D4 /* SensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA386DEE56818B4D7B05EC6BD944C56E /* SensorType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E1B501385D1D53A18ECA931D927B2320 /* BoseWearableDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F657FCB09DDFCF6513E4167181314 /* BoseWearableDevice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E3D69F7DA556BDA9691F930575EE02FD /* BoseWearable+SearchUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52495F83E9E3DA698F2D011FF1B2D71 /* BoseWearable+SearchUI.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E968ACDC74AB37839B9A9EEA1CBB843B /* BoseWearable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7B544CF22A5BFE99A8F76059EC9FEC /* BoseWearable-dummy.m */; };
+		ECFACC77118E3B3FAC9700E7235EBA87 /* GestureMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7979E7BE59DD4F5AD9AA6881EDF03 /* GestureMetadata.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EF4CC24E338033A467BC79DE68E69F6E /* GestureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1562E95FD62EAEE0CB44DE6314C840 /* GestureType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F14D2D831A4FB909DBB13C12BA782955 /* DeviceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62AC3A7D40AD020066079DC46F78869 /* DeviceListTableViewCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F27F9E3C2526E9660137597A4ACB82A0 /* Pods-SpatialAudio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA3C93F89772D597A94E485A3EC4AB1 /* Pods-SpatialAudio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2CF9FB064CD9B2554D8ED67933CA97F /* CBUUIDConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3174B1651EAEAD08F5E4A1F28DB99546 /* CBUUIDConvertible.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F40968B1BB3CE41DF1D8F01EF3B13E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140FBCE010BCAC65CBA05A4DCAB251D5 /* Foundation.framework */; };
+		F9FC54C656ED29DB2C299C27214AFF9E /* DeviceSearchUserInterfaceIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAFFE90E24B3EF40A0F41AF9154E6 /* DeviceSearchUserInterfaceIOS.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FB4C0081A5C22AD5D1C59C96DD6FB482 /* Logging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BCE594A6AC9AC156258735B780CF11 /* Logging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0ECE786F64DC0494DDAAA5408DBEBA /* Data+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D19DCF41FC61153BF0C0DB1D5CEFF99 /* Data+HexString.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FE6CDDEAD0FF6FAB6F74231C5636CBFE /* UpgradeableBoseDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5D5CDD98BC32886CE178F85370E2C /* UpgradeableBoseDevice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FF1C9E74703ED0A2258462E75B70F639 /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0423212BFAA74479766131A42F71C /* SensorData.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C7F784D47BA4E22B8012B5F36642D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33AF4DB3631C309CE95A88DAC4641F7;
+			remoteInfo = BLECore;
+		};
+		49B02B26725A5912DE284E9F65F11686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4598007D5DF0996CCFA409D6BBC273D5;
+			remoteInfo = Logging;
+		};
+		644920F5690E85C372DBC86F8D1494BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F6DB134443C94DFD1479A741254A35;
+			remoteInfo = SwiftLint;
+		};
+		823C8D7F54B743BCB690AE038A5D46AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4598007D5DF0996CCFA409D6BBC273D5;
+			remoteInfo = Logging;
+		};
+		9E2007F76FDCCC3B499DE4173FD0885A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33AF4DB3631C309CE95A88DAC4641F7;
+			remoteInfo = BLECore;
+		};
+		A3164BC1655426DF9F55D16EB94A0FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4598007D5DF0996CCFA409D6BBC273D5;
+			remoteInfo = Logging;
+		};
+		AB0109C873846240166C14F8A3E07080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE08843638F39CC53256A6A913155DC;
+			remoteInfo = BoseWearable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0420507DFBF93546565E22DF3A20AB15 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Modules/BLECore/Source/Protocols/Service.swift; sourceTree = "<group>"; };
+		056DC9EFA1C217103767A366BFF1C52A /* Logging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Logging-Info.plist"; sourceTree = "<group>"; };
+		0E468ECD58D0DEAB55C7A9CE79A23A39 /* SensorDispatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorDispatch.swift; path = Modules/BoseWearable/Source/SensorData/SensorDispatch.swift; sourceTree = "<group>"; };
+		1027D0E172CD80EB15CF00CEB3976ECD /* DeviceSearchTaskUserInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceSearchTaskUserInterface.swift; path = Modules/BoseWearable/Source/DeviceSearch/DeviceSearchTaskUserInterface.swift; sourceTree = "<group>"; };
+		140FBCE010BCAC65CBA05A4DCAB251D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		199C45BC4DA151810CCF5D20E7A3A72A /* ListenerToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListenerToken.swift; path = Modules/BoseWearable/Source/WearableDevice/ListenerToken.swift; sourceTree = "<group>"; };
+		1B1A288303E707FCCBCB8FE51880073B /* BLECore+LoggingConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BLECore+LoggingConfig.swift"; path = "Modules/BLECore/Source/BLECore+LoggingConfig.swift"; sourceTree = "<group>"; };
+		1C1E9A6B48BB5D30BC6A848AA553F387 /* VectorAccuracy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VectorAccuracy.swift; path = Modules/BoseWearable/Source/SensorData/VectorAccuracy.swift; sourceTree = "<group>"; };
+		1F9A841BAD568CF1873FE4B886073397 /* Logging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logging-prefix.pch"; sourceTree = "<group>"; };
+		26665A1F1EC45D2B762C9AF32945A5F9 /* BLECore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLECore.xcconfig; sourceTree = "<group>"; };
+		271A3D6B46EA316940210B7AE698F38E /* Pods-SpatialAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpatialAudio.release.xcconfig"; sourceTree = "<group>"; };
+		2AD00AADB6D68306B6CFD85D19D5AB0E /* GestureConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureConfiguration.swift; path = Modules/BoseWearable/Source/WearableSensorService/GestureConfiguration.swift; sourceTree = "<group>"; };
+		2CA3C93F89772D597A94E485A3EC4AB1 /* Pods-SpatialAudio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpatialAudio-umbrella.h"; sourceTree = "<group>"; };
+		2EE7979E7BE59DD4F5AD9AA6881EDF03 /* GestureMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureMetadata.swift; path = Modules/BoseWearable/Source/SensorData/GestureMetadata.swift; sourceTree = "<group>"; };
+		3174B1651EAEAD08F5E4A1F28DB99546 /* CBUUIDConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBUUIDConvertible.swift; path = Modules/BLECore/Source/Protocols/CBUUIDConvertible.swift; sourceTree = "<group>"; };
+		3254C237E1B1A445D4F44B80D0DA5EF8 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		32AF5D9863AEE2C77FFD9797955B33D0 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Modules/BLECore/Source/Protocols/SessionDelegate.swift; sourceTree = "<group>"; };
+		34837997B1F31A261D83589CD6BDC1DB /* Pods-SpatialAudio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpatialAudio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		348BF33764C8201AFF91C261F7CA8F59 /* DeviceInformationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInformationService.swift; path = Modules/BLECore/Source/DeviceInformation/DeviceInformationService.swift; sourceTree = "<group>"; };
+		364E956ABA0C47380244F225203E6C36 /* BLECore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLECore.framework; path = BLECore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374A81EE27BFBC11DF46C019432C569A /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Modules/BLECore/Source/Protocols/Device.swift; sourceTree = "<group>"; };
+		3819C15E1E96248999B24B50D6041542 /* SignalStrength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalStrength.swift; path = Modules/BoseWearable/Source/DeviceSearch/SignalStrength.swift; sourceTree = "<group>"; };
+		388D63B7D41717848ECB7BCE066F9AE8 /* TypedNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypedNotification.swift; path = Modules/BLECore/Source/Types/TypedNotification.swift; sourceTree = "<group>"; };
+		3C4FC752D1BC354D539B9E38E96DAF83 /* ServiceSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceSet.swift; path = Modules/BLECore/Source/Types/ServiceSet.swift; sourceTree = "<group>"; };
+		3E3F9DAB4768E47575ECE928BB1452AB /* BLECore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLECore-prefix.pch"; sourceTree = "<group>"; };
+		3E7F657FCB09DDFCF6513E4167181314 /* BoseWearableDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoseWearableDevice.swift; path = Modules/BoseWearable/Source/WearableDevice/BoseWearableDevice.swift; sourceTree = "<group>"; };
+		3F87A72A2E0F61E131E5619093A1139E /* QuaternionAccuracy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuaternionAccuracy.swift; path = Modules/BoseWearable/Source/SensorData/QuaternionAccuracy.swift; sourceTree = "<group>"; };
+		4514224794F37FEDF7CCB22A2510DA39 /* WearableSensorService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WearableSensorService.swift; path = Modules/BoseWearable/Source/WearableSensorService/WearableSensorService.swift; sourceTree = "<group>"; };
+		46262C10F9ED4F1021F53F8D6F2EFDFB /* DiscoveryEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscoveryEvent.swift; path = Modules/BLECore/Source/Types/DiscoveryEvent.swift; sourceTree = "<group>"; };
+		46FEA4E4E5251AAB6A6F72B0558398B3 /* SamplePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SamplePeriod.swift; path = Modules/BoseWearable/Source/WearableSensorService/SamplePeriod.swift; sourceTree = "<group>"; };
+		47CFF733D62A809464C89E4BBA045A22 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Modules/BLECore/Source/Types/Session.swift; sourceTree = "<group>"; };
+		494C56DF40FC9C97FB105B432875E493 /* SimulatedWearableDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimulatedWearableDevice.swift; path = Modules/BoseWearable/Source/WearableDevice/SimulatedWearableDevice.swift; sourceTree = "<group>"; };
+		4C7B544CF22A5BFE99A8F76059EC9FEC /* BoseWearable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BoseWearable-dummy.m"; sourceTree = "<group>"; };
+		4DEDC1B56429604663E4DD993E91809C /* BluetoothManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BluetoothManager.swift; path = Modules/BLECore/Source/Types/BluetoothManager.swift; sourceTree = "<group>"; };
+		4E86D9A82A610F7B56B6BF5E66E13009 /* DeviceInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInformation.swift; path = Modules/BLECore/Source/DeviceInformation/DeviceInformation.swift; sourceTree = "<group>"; };
+		50F6FBFC04A01EC3A67709847DA640D2 /* Pods-SpatialAudio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpatialAudio-acknowledgements.plist"; sourceTree = "<group>"; };
+		523FC6383BFF3F115BD328FB27259A44 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52A48DD7125A793EC65730492479CBD3 /* BLECore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLECore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F722FC00DFC7A66D7AA51FB5EC01C6 /* ScaleFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleFunction.swift; path = Modules/BoseWearable/Source/SensorData/ScaleFunction.swift; sourceTree = "<group>"; };
+		5727871D96BAD7A2584A1612F4AD951B /* ConditionallyUpgradeableBoseDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionallyUpgradeableBoseDevice.swift; path = Modules/BoseWearable/Source/LegacyDevices/ConditionallyUpgradeableBoseDevice.swift; sourceTree = "<group>"; };
+		5BD83B980130B86C842C0EE08FF58437 /* SearchUILocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SearchUILocalizable.strings; path = en.lproj/SearchUILocalizable.strings; sourceTree = "<group>"; };
+		5D19DCF41FC61153BF0C0DB1D5CEFF99 /* Data+HexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+HexString.swift"; path = "Modules/BoseWearable/Source/Extensions/Data+HexString.swift"; sourceTree = "<group>"; };
+		5F9ED97FB564034D3508FC61EC003995 /* GestureInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureInformation.swift; path = Modules/BoseWearable/Source/WearableSensorService/GestureInformation.swift; sourceTree = "<group>"; };
+		623A22226FA6E2623F97342539A92A12 /* DeviceSearchTaskUserInterfaceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceSearchTaskUserInterfaceDelegate.swift; path = Modules/BoseWearable/Source/DeviceSearch/DeviceSearchTaskUserInterfaceDelegate.swift; sourceTree = "<group>"; };
+		62DBB98501C0ED08420F33A67DDDBE99 /* DiscoveredDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscoveredDevice.swift; path = Modules/BLECore/Source/Types/DiscoveredDevice.swift; sourceTree = "<group>"; };
+		63D7550BCC88906553EFFF0B92A402E0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		644256C411BF7444738E6D0DECC3F116 /* WearableDevice+EventListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WearableDevice+EventListener.swift"; path = "Modules/BoseWearable/Source/WearableDevice/WearableDevice+EventListener.swift"; sourceTree = "<group>"; };
+		64F5856DB5A83450604C27FADFA7D50D /* Pods-SpatialAudio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpatialAudio.modulemap"; sourceTree = "<group>"; };
+		65A4141264CC0085E1C38253E79B315C /* SimulatedWearableDeviceSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimulatedWearableDeviceSession.swift; path = Modules/BoseWearable/Source/WearableDevice/SimulatedWearableDeviceSession.swift; sourceTree = "<group>"; };
+		6795A81E752F7100D6556FFFEB55F971 /* BLECore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLECore-umbrella.h"; sourceTree = "<group>"; };
+		68E0423212BFAA74479766131A42F71C /* SensorData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorData.swift; path = Modules/BoseWearable/Source/SensorData/SensorData.swift; sourceTree = "<group>"; };
+		69154B0FE9C1624BFB6249E2ED3FF331 /* Pods-SpatialAudio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpatialAudio-Info.plist"; sourceTree = "<group>"; };
+		6B11B78EB28827C58503391EF9B3877E /* Pods-SpatialAudio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpatialAudio-frameworks.sh"; sourceTree = "<group>"; };
+		6BAED07FD1A1516288FC2440DFC31CB8 /* BLECore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLECore.modulemap; sourceTree = "<group>"; };
+		6C2479C8EDC287110743E0AF99E031D7 /* BLECore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLECore-dummy.m"; sourceTree = "<group>"; };
+		6DAFDC1CD88C20DB34929E920C1CAB18 /* BoseWearable+LoggingConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BoseWearable+LoggingConfig.swift"; path = "Modules/BoseWearable/Source/BoseWearable+LoggingConfig.swift"; sourceTree = "<group>"; };
+		72246C7F7AD3FE689EA8B99B6B0549F1 /* Pods-SpatialAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpatialAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		72A36D184B7C3385B1E3FAE35932F7F1 /* Pods_SpatialAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpatialAudio.framework; path = "Pods-SpatialAudio.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		753F57ECFA3697C7C2159E1088950D6D /* LogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogFormatter.swift; path = Modules/Logging/Source/LogFormatter.swift; sourceTree = "<group>"; };
+		75A5D5CDD98BC32886CE178F85370E2C /* UpgradeableBoseDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpgradeableBoseDevice.swift; path = Modules/BoseWearable/Source/LegacyDevices/UpgradeableBoseDevice.swift; sourceTree = "<group>"; };
+		78E1B60FAA342BA5D6EFCDA2E2AC523D /* BoseWearable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BoseWearable.framework; path = BoseWearable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BCE594A6AC9AC156258735B780CF11 /* Logging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logging-umbrella.h"; sourceTree = "<group>"; };
+		7A1964802A7267315BA399D6D49EA6FB /* SensorTimestamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorTimestamp.swift; path = Modules/BoseWearable/Source/SensorData/SensorTimestamp.swift; sourceTree = "<group>"; };
+		7C2968B672697B4A1580645F2720E928 /* BoseWearable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BoseWearable-Info.plist"; sourceTree = "<group>"; };
+		7DC1BB42EC95E945BD009BFDE33E72DE /* DeviceStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceStatus.swift; path = Modules/BoseWearable/Source/WearableSensorService/DeviceStatus.swift; sourceTree = "<group>"; };
+		7E6922ABAF1D992F442D41A7455C075A /* DeviceSearchUserInterfaceIOS.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = DeviceSearchUserInterfaceIOS.storyboard; path = Extensions/BoseWearable/SearchUI/Resources/DeviceSearchUserInterfaceIOS.storyboard; sourceTree = "<group>"; };
+		835798B05EE860FE67487CC8BD0359B5 /* SensorSample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorSample.swift; path = Modules/BoseWearable/Source/SensorData/SensorSample.swift; sourceTree = "<group>"; };
+		83B633CF8F7D18978D946BA71B64F1BC /* SensorMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorMetadata.swift; path = Modules/BoseWearable/Source/SensorData/SensorMetadata.swift; sourceTree = "<group>"; };
+		86CF4010F7DF5A0ABDB8151F06214378 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D35E041B0A44891DB93920B9CB6B6A /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logging.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A50299FC74098F8136F757B75A0BA6 /* WearableDeviceEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WearableDeviceEvent.swift; path = Modules/BoseWearable/Source/WearableDevice/WearableDeviceEvent.swift; sourceTree = "<group>"; };
+		8C1562E95FD62EAEE0CB44DE6314C840 /* GestureType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureType.swift; path = Modules/BoseWearable/Source/WearableSensorService/GestureType.swift; sourceTree = "<group>"; };
+		8CEAAFFE90E24B3EF40A0F41AF9154E6 /* DeviceSearchUserInterfaceIOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceSearchUserInterfaceIOS.swift; path = Extensions/BoseWearable/SearchUI/Types/DeviceSearchUserInterfaceIOS.swift; sourceTree = "<group>"; };
+		91349966CBC0AA87B423A88D7B1D3302 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Modules/BoseWearable/Source/Types/Result.swift; sourceTree = "<group>"; };
+		925F2D7C8B66D430315076BDFA331C20 /* SensorConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorConfiguration.swift; path = Modules/BoseWearable/Source/WearableSensorService/SensorConfiguration.swift; sourceTree = "<group>"; };
+		939C38F9F26CB5EEF4509340DFC8AB12 /* SensorDispatchHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorDispatchHandler.swift; path = Modules/BoseWearable/Source/SensorData/SensorDispatchHandler.swift; sourceTree = "<group>"; };
+		942FBC894AA99C505FFC10E371CBBA69 /* Log+BLECoreCategories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Log+BLECoreCategories.swift"; path = "Modules/BLECore/Source/Extensions/Log+BLECoreCategories.swift"; sourceTree = "<group>"; };
+		97858CDE58E8B5A336714D9688EB111A /* SensorValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorValue.swift; path = Modules/BoseWearable/Source/SensorData/SensorValue.swift; sourceTree = "<group>"; };
+		9A056CE1193772D0E6DCC8EF2A440853 /* Data+IntegerByteOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+IntegerByteOrder.swift"; path = "Modules/BoseWearable/Source/Extensions/Data+IntegerByteOrder.swift"; sourceTree = "<group>"; };
+		9BE8CFC4C1DE6D0B744612D2AB57FFCA /* BoseWearable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoseWearable.swift; path = Modules/BoseWearable/Source/BoseWearable.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A54D8F6195C6B504E646A0F8655DA788 /* BLECoreError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLECoreError.swift; path = Modules/BLECore/Source/Types/BLECoreError.swift; sourceTree = "<group>"; };
+		A559AA91FBED9016E79B632806EA32DA /* RemoteWearableDeviceSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteWearableDeviceSession.swift; path = Modules/BoseWearable/Source/WearableDevice/RemoteWearableDeviceSession.swift; sourceTree = "<group>"; };
+		A5717BA9561E5245EB1DA7599391EE8A /* Log+BoseWearableCategories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Log+BoseWearableCategories.swift"; path = "Modules/BoseWearable/Source/Extensions/Log+BoseWearableCategories.swift"; sourceTree = "<group>"; };
+		A62AC3A7D40AD020066079DC46F78869 /* DeviceListTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceListTableViewCell.swift; path = Extensions/BoseWearable/SearchUI/Cells/DeviceListTableViewCell.swift; sourceTree = "<group>"; };
+		A763AB91671C6FF8D25E32986FDA7F5C /* WearableDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WearableDevice.swift; path = Modules/BoseWearable/Source/WearableDevice/WearableDevice.swift; sourceTree = "<group>"; };
+		A8862374F6EFBBCA926F33E83122F6B6 /* SensorInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorInformation.swift; path = Modules/BoseWearable/Source/WearableSensorService/SensorInformation.swift; sourceTree = "<group>"; };
+		A9A3F0B979897FDD05D93821E3E6BD4E /* BLECore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLECore.swift; path = Modules/BLECore/Source/BLECore.swift; sourceTree = "<group>"; };
+		AAF549C5859F1D37731C09093D2A18BD /* WearableDeviceInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WearableDeviceInformation.swift; path = Modules/BoseWearable/Source/WearableSensorService/WearableDeviceInformation.swift; sourceTree = "<group>"; };
+		AD3E2A04130098298AC659E814F72D98 /* WearableDeviceSessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WearableDeviceSessionDelegate.swift; path = Modules/BoseWearable/Source/WearableDevice/WearableDeviceSessionDelegate.swift; sourceTree = "<group>"; };
+		ADF7BB542123D99A4ACB2D66A6D477B2 /* DeviceInformationServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInformationServiceDelegate.swift; path = Modules/BLECore/Source/DeviceInformation/DeviceInformationServiceDelegate.swift; sourceTree = "<group>"; };
+		AF3439277FAEFC5AF85B8F2F8DA3D564 /* Logging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Logging-dummy.m"; sourceTree = "<group>"; };
+		B1F001F003A5512A6848A05E6338BE8C /* CancellableResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CancellableResult.swift; path = Modules/BoseWearable/Source/Types/CancellableResult.swift; sourceTree = "<group>"; };
+		B38FD361EB8D6D14F9C4498E8CFD7466 /* DeviceSearchModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceSearchModalViewController.swift; path = Extensions/BoseWearable/SearchUI/ViewControllers/DeviceSearchModalViewController.swift; sourceTree = "<group>"; };
+		B4D473230B9A1FDA904124456B9312CA /* DeviceListTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceListTableViewController.swift; path = Extensions/BoseWearable/SearchUI/ViewControllers/DeviceListTableViewController.swift; sourceTree = "<group>"; };
+		B6D02599416DD9F80969D3402F727EB8 /* UIApplication+DisplayInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+DisplayInfo.swift"; path = "Extensions/BoseWearable/SearchUI/Extensions/UIApplication+DisplayInfo.swift"; sourceTree = "<group>"; };
+		BA66B56EF40E56DBE7BF48FAA59E0E55 /* DeviceSearchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceSearchMode.swift; path = Modules/BoseWearable/Source/DeviceSearch/DeviceSearchMode.swift; sourceTree = "<group>"; };
+		BAD6B652DC657A36C4BC214C958DD99E /* WearableDeviceSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WearableDeviceSession.swift; path = Modules/BoseWearable/Source/WearableDevice/WearableDeviceSession.swift; sourceTree = "<group>"; };
+		BCA2D45A5735BEBB6092111573AAF1DC /* SignalStrength+ImageName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SignalStrength+ImageName.swift"; path = "Extensions/BoseWearable/SearchUI/Extensions/SignalStrength+ImageName.swift"; sourceTree = "<group>"; };
+		BD2249819802C75A64F67E5D3C46F6E8 /* Logging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logging.xcconfig; sourceTree = "<group>"; };
+		BD4760B62AB45C9BDD6200FFE62D96F5 /* Logging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Logging.modulemap; sourceTree = "<group>"; };
+		BD5DBD1AEC10CE01E67A24A029D9AD81 /* DeviceSearchTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceSearchTask.swift; path = Modules/BoseWearable/Source/DeviceSearch/DeviceSearchTask.swift; sourceTree = "<group>"; };
+		C0354B0A62406C34B718E4703AFE82EB /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Extensions/BoseWearable/SearchUI/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		C0FE720D9F3D2A804A0CA50F7FDCBB80 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Modules/Logging/Source/Log.swift; sourceTree = "<group>"; };
+		C85FF2FA0987B73968C9C2738D8D9CD1 /* BoseWearable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BoseWearable.modulemap; sourceTree = "<group>"; };
+		C8608B016CA0E35B22A9602295C1EF73 /* ServiceIdentification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceIdentification.swift; path = Modules/BLECore/Source/Protocols/ServiceIdentification.swift; sourceTree = "<group>"; };
+		C86B87FECE01C01A91BFB0132D56562D /* DeviceIdentification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceIdentification.swift; path = Modules/BLECore/Source/Protocols/DeviceIdentification.swift; sourceTree = "<group>"; };
+		CF66A6D64DA5DD0DC489F58F4ED9F663 /* BoseWearableError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoseWearableError.swift; path = Modules/BoseWearable/Source/Types/BoseWearableError.swift; sourceTree = "<group>"; };
+		D13A8E1680313F54C7FCF0BE45FF8CCC /* Pods-SpatialAudio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpatialAudio-dummy.m"; sourceTree = "<group>"; };
+		D52495F83E9E3DA698F2D011FF1B2D71 /* BoseWearable+SearchUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BoseWearable+SearchUI.swift"; path = "Extensions/BoseWearable/SearchUI/Extensions/BoseWearable+SearchUI.swift"; sourceTree = "<group>"; };
+		D57A6C877B5A46C8DD78C9F64F5E4A67 /* Quaternion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Quaternion.swift; path = Modules/BoseWearable/Source/SensorData/Quaternion.swift; sourceTree = "<group>"; };
+		DA386DEE56818B4D7B05EC6BD944C56E /* SensorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorType.swift; path = Modules/BoseWearable/Source/WearableSensorService/SensorType.swift; sourceTree = "<group>"; };
+		DAAB7422DC38D9EA4603CAB42D52A50D /* BLECore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BLECore-Info.plist"; sourceTree = "<group>"; };
+		DC5DB2354545118B91F478BAF9663D6C /* GestureData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureData.swift; path = Modules/BoseWearable/Source/SensorData/GestureData.swift; sourceTree = "<group>"; };
+		DFCC8039A8D5D1AA17A4BD96A082DB11 /* BoseWearable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoseWearable-prefix.pch"; sourceTree = "<group>"; };
+		EF4144FB5400359D10ADA89936061833 /* Vector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vector.swift; path = Modules/BoseWearable/Source/SensorData/Vector.swift; sourceTree = "<group>"; };
+		F1BF254D34FC7D9C2E96FA0C1CD87E99 /* WearableSensorServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WearableSensorServiceDelegate.swift; path = Modules/BoseWearable/Source/WearableSensorService/WearableSensorServiceDelegate.swift; sourceTree = "<group>"; };
+		F1C4F845ECF4F51B50A9D4EE20AA74A1 /* BoseWearable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoseWearable.xcconfig; sourceTree = "<group>"; };
+		F666DBBF7BDF8772874F1BE6B643C242 /* BoseWearable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoseWearable-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C9094951A29D17E326DA7039F010B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C11AA31F6E763094873467677031D3 /* BLECore.framework in Frameworks */,
+				008372EFA6C31C1CD3080A29EC655337 /* Foundation.framework in Frameworks */,
+				69194C949BF850137DBBBE86C96AAB3A /* Logging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8A91AE8B450151F2A0466019E86296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40968B1BB3CE41DF1D8F01EF3B13E97 /* Foundation.framework in Frameworks */,
+				2D7663134C76A29EE1F0D5749E1DD40C /* Logging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C7E77C8BBEEEF0BF0744DA4CCCABA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6A109399DB06076865EB8B49AF8B89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB07DC7AE679A10C8A90461A96E621A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC715FD06BBB8B112F3D9B3385AFA8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D1A07C830A25C4A3C1BF1E45DA480A /* Pods-SpatialAudio */ = {
+			isa = PBXGroup;
+			children = (
+				64F5856DB5A83450604C27FADFA7D50D /* Pods-SpatialAudio.modulemap */,
+				34837997B1F31A261D83589CD6BDC1DB /* Pods-SpatialAudio-acknowledgements.markdown */,
+				50F6FBFC04A01EC3A67709847DA640D2 /* Pods-SpatialAudio-acknowledgements.plist */,
+				D13A8E1680313F54C7FCF0BE45FF8CCC /* Pods-SpatialAudio-dummy.m */,
+				6B11B78EB28827C58503391EF9B3877E /* Pods-SpatialAudio-frameworks.sh */,
+				69154B0FE9C1624BFB6249E2ED3FF331 /* Pods-SpatialAudio-Info.plist */,
+				2CA3C93F89772D597A94E485A3EC4AB1 /* Pods-SpatialAudio-umbrella.h */,
+				72246C7F7AD3FE689EA8B99B6B0549F1 /* Pods-SpatialAudio.debug.xcconfig */,
+				271A3D6B46EA316940210B7AE698F38E /* Pods-SpatialAudio.release.xcconfig */,
+			);
+			name = "Pods-SpatialAudio";
+			path = "Target Support Files/Pods-SpatialAudio";
+			sourceTree = "<group>";
+		};
+		08694999FDCEC7E1A9B14A019D29DEF4 /* SearchUI */ = {
+			isa = PBXGroup;
+			children = (
+				D52495F83E9E3DA698F2D011FF1B2D71 /* BoseWearable+SearchUI.swift */,
+				A62AC3A7D40AD020066079DC46F78869 /* DeviceListTableViewCell.swift */,
+				B4D473230B9A1FDA904124456B9312CA /* DeviceListTableViewController.swift */,
+				B38FD361EB8D6D14F9C4498E8CFD7466 /* DeviceSearchModalViewController.swift */,
+				8CEAAFFE90E24B3EF40A0F41AF9154E6 /* DeviceSearchUserInterfaceIOS.swift */,
+				BCA2D45A5735BEBB6092111573AAF1DC /* SignalStrength+ImageName.swift */,
+				B6D02599416DD9F80969D3402F727EB8 /* UIApplication+DisplayInfo.swift */,
+				D44EE8F9C1F05C34FAEC73D6C8088104 /* Resources */,
+			);
+			name = SearchUI;
+			sourceTree = "<group>";
+		};
+		0D578C76F84BFCD2F6BB35165EA7D4F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3254C237E1B1A445D4F44B80D0DA5EF8 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		122891B2B8454C6821A11D9EB68B120D /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE720D9F3D2A804A0CA50F7FDCBB80 /* Log.swift */,
+				753F57ECFA3697C7C2159E1088950D6D /* LogFormatter.swift */,
+				646ACF009E7E65ECCF63B35A40C9E291 /* Support Files */,
+			);
+			name = Logging;
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		1C1EB4463B1015876B0B45335CD33947 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9BE8CFC4C1DE6D0B744612D2AB57FFCA /* BoseWearable.swift */,
+				6DAFDC1CD88C20DB34929E920C1CAB18 /* BoseWearable+LoggingConfig.swift */,
+				3E7F657FCB09DDFCF6513E4167181314 /* BoseWearableDevice.swift */,
+				CF66A6D64DA5DD0DC489F58F4ED9F663 /* BoseWearableError.swift */,
+				B1F001F003A5512A6848A05E6338BE8C /* CancellableResult.swift */,
+				5727871D96BAD7A2584A1612F4AD951B /* ConditionallyUpgradeableBoseDevice.swift */,
+				5D19DCF41FC61153BF0C0DB1D5CEFF99 /* Data+HexString.swift */,
+				9A056CE1193772D0E6DCC8EF2A440853 /* Data+IntegerByteOrder.swift */,
+				BA66B56EF40E56DBE7BF48FAA59E0E55 /* DeviceSearchMode.swift */,
+				BD5DBD1AEC10CE01E67A24A029D9AD81 /* DeviceSearchTask.swift */,
+				1027D0E172CD80EB15CF00CEB3976ECD /* DeviceSearchTaskUserInterface.swift */,
+				623A22226FA6E2623F97342539A92A12 /* DeviceSearchTaskUserInterfaceDelegate.swift */,
+				7DC1BB42EC95E945BD009BFDE33E72DE /* DeviceStatus.swift */,
+				2AD00AADB6D68306B6CFD85D19D5AB0E /* GestureConfiguration.swift */,
+				DC5DB2354545118B91F478BAF9663D6C /* GestureData.swift */,
+				5F9ED97FB564034D3508FC61EC003995 /* GestureInformation.swift */,
+				2EE7979E7BE59DD4F5AD9AA6881EDF03 /* GestureMetadata.swift */,
+				8C1562E95FD62EAEE0CB44DE6314C840 /* GestureType.swift */,
+				199C45BC4DA151810CCF5D20E7A3A72A /* ListenerToken.swift */,
+				A5717BA9561E5245EB1DA7599391EE8A /* Log+BoseWearableCategories.swift */,
+				D57A6C877B5A46C8DD78C9F64F5E4A67 /* Quaternion.swift */,
+				3F87A72A2E0F61E131E5619093A1139E /* QuaternionAccuracy.swift */,
+				A559AA91FBED9016E79B632806EA32DA /* RemoteWearableDeviceSession.swift */,
+				91349966CBC0AA87B423A88D7B1D3302 /* Result.swift */,
+				46FEA4E4E5251AAB6A6F72B0558398B3 /* SamplePeriod.swift */,
+				56F722FC00DFC7A66D7AA51FB5EC01C6 /* ScaleFunction.swift */,
+				925F2D7C8B66D430315076BDFA331C20 /* SensorConfiguration.swift */,
+				68E0423212BFAA74479766131A42F71C /* SensorData.swift */,
+				0E468ECD58D0DEAB55C7A9CE79A23A39 /* SensorDispatch.swift */,
+				939C38F9F26CB5EEF4509340DFC8AB12 /* SensorDispatchHandler.swift */,
+				A8862374F6EFBBCA926F33E83122F6B6 /* SensorInformation.swift */,
+				83B633CF8F7D18978D946BA71B64F1BC /* SensorMetadata.swift */,
+				835798B05EE860FE67487CC8BD0359B5 /* SensorSample.swift */,
+				7A1964802A7267315BA399D6D49EA6FB /* SensorTimestamp.swift */,
+				DA386DEE56818B4D7B05EC6BD944C56E /* SensorType.swift */,
+				97858CDE58E8B5A336714D9688EB111A /* SensorValue.swift */,
+				3819C15E1E96248999B24B50D6041542 /* SignalStrength.swift */,
+				494C56DF40FC9C97FB105B432875E493 /* SimulatedWearableDevice.swift */,
+				65A4141264CC0085E1C38253E79B315C /* SimulatedWearableDeviceSession.swift */,
+				75A5D5CDD98BC32886CE178F85370E2C /* UpgradeableBoseDevice.swift */,
+				EF4144FB5400359D10ADA89936061833 /* Vector.swift */,
+				1C1E9A6B48BB5D30BC6A848AA553F387 /* VectorAccuracy.swift */,
+				A763AB91671C6FF8D25E32986FDA7F5C /* WearableDevice.swift */,
+				644256C411BF7444738E6D0DECC3F116 /* WearableDevice+EventListener.swift */,
+				89A50299FC74098F8136F757B75A0BA6 /* WearableDeviceEvent.swift */,
+				AAF549C5859F1D37731C09093D2A18BD /* WearableDeviceInformation.swift */,
+				BAD6B652DC657A36C4BC214C958DD99E /* WearableDeviceSession.swift */,
+				AD3E2A04130098298AC659E814F72D98 /* WearableDeviceSessionDelegate.swift */,
+				4514224794F37FEDF7CCB22A2510DA39 /* WearableSensorService.swift */,
+				F1BF254D34FC7D9C2E96FA0C1CD87E99 /* WearableSensorServiceDelegate.swift */,
+				F6DB67BE466CBE2EC2EF79C14CB07A1C /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		28AF5A9D1A9029E8FBF6F50DFF169C1B /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				0D578C76F84BFCD2F6BB35165EA7D4F8 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		3B98D4D2162A8F816AB752B310B734C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D1A07C830A25C4A3C1BF1E45DA480A /* Pods-SpatialAudio */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51E6E8FFD5CC298B7E52F13DEB1A1D3E /* BoseWearable */ = {
+			isa = PBXGroup;
+			children = (
+				1C1EB4463B1015876B0B45335CD33947 /* Core */,
+				08694999FDCEC7E1A9B14A019D29DEF4 /* SearchUI */,
+				80B3005B9F553879EDABA86FB5DDF309 /* Support Files */,
+			);
+			name = BoseWearable;
+			path = BoseWearable;
+			sourceTree = "<group>";
+		};
+		624A6496D4848B22632720613FA5BF3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				140FBCE010BCAC65CBA05A4DCAB251D5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		646ACF009E7E65ECCF63B35A40C9E291 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4760B62AB45C9BDD6200FFE62D96F5 /* Logging.modulemap */,
+				BD2249819802C75A64F67E5D3C46F6E8 /* Logging.xcconfig */,
+				AF3439277FAEFC5AF85B8F2F8DA3D564 /* Logging-dummy.m */,
+				056DC9EFA1C217103767A366BFF1C52A /* Logging-Info.plist */,
+				1F9A841BAD568CF1873FE4B886073397 /* Logging-prefix.pch */,
+				79BCE594A6AC9AC156258735B780CF11 /* Logging-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Logging";
+			sourceTree = "<group>";
+		};
+		6D984E2F53D3F686FB1FDD31B94C496A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				514A4512AA309BC376EBEF88541F0C14 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7190A5ED94FDF3DD465FD57141E32F86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB27720EB998FC1E080BDC01E4E8EC82 /* BLECore */,
+				51E6E8FFD5CC298B7E52F13DEB1A1D3E /* BoseWearable */,
+				122891B2B8454C6821A11D9EB68B120D /* Logging */,
+				28AF5A9D1A9029E8FBF6F50DFF169C1B /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		768B0078E8F1A7DA105FF34015EABBD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BAED07FD1A1516288FC2440DFC31CB8 /* BLECore.modulemap */,
+				26665A1F1EC45D2B762C9AF32945A5F9 /* BLECore.xcconfig */,
+				6C2479C8EDC287110743E0AF99E031D7 /* BLECore-dummy.m */,
+				DAAB7422DC38D9EA4603CAB42D52A50D /* BLECore-Info.plist */,
+				3E3F9DAB4768E47575ECE928BB1452AB /* BLECore-prefix.pch */,
+				6795A81E752F7100D6556FFFEB55F971 /* BLECore-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BLECore";
+			sourceTree = "<group>";
+		};
+		80B3005B9F553879EDABA86FB5DDF309 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C85FF2FA0987B73968C9C2738D8D9CD1 /* BoseWearable.modulemap */,
+				F1C4F845ECF4F51B50A9D4EE20AA74A1 /* BoseWearable.xcconfig */,
+				4C7B544CF22A5BFE99A8F76059EC9FEC /* BoseWearable-dummy.m */,
+				7C2968B672697B4A1580645F2720E928 /* BoseWearable-Info.plist */,
+				DFCC8039A8D5D1AA17A4BD96A082DB11 /* BoseWearable-prefix.pch */,
+				F666DBBF7BDF8772874F1BE6B643C242 /* BoseWearable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BoseWearable";
+			sourceTree = "<group>";
+		};
+		BE76052227C91283EF2A0B1D783CCC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				364E956ABA0C47380244F225203E6C36 /* BLECore.framework */,
+				78E1B60FAA342BA5D6EFCDA2E2AC523D /* BoseWearable.framework */,
+				86D35E041B0A44891DB93920B9CB6B6A /* Logging.framework */,
+				72A36D184B7C3385B1E3FAE35932F7F1 /* Pods_SpatialAudio.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E35F866D0C0C86978E0485FDF6B328A7 /* Frameworks */,
+				7190A5ED94FDF3DD465FD57141E32F86 /* Pods */,
+				BE76052227C91283EF2A0B1D783CCC1F /* Products */,
+				3B98D4D2162A8F816AB752B310B734C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D44EE8F9C1F05C34FAEC73D6C8088104 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0354B0A62406C34B718E4703AFE82EB /* Assets.xcassets */,
+				7E6922ABAF1D992F442D41A7455C075A /* DeviceSearchUserInterfaceIOS.storyboard */,
+				E88405A819B1D8C33BF475C16209835E /* SearchUILocalizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E35F866D0C0C86978E0485FDF6B328A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52A48DD7125A793EC65730492479CBD3 /* BLECore.framework */,
+				86CF4010F7DF5A0ABDB8151F06214378 /* Logging.framework */,
+				624A6496D4848B22632720613FA5BF3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6DB67BE466CBE2EC2EF79C14CB07A1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E66533AB2DEBB1484CFEA73EE9BF6 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FB27720EB998FC1E080BDC01E4E8EC82 /* BLECore */ = {
+			isa = PBXGroup;
+			children = (
+				A9A3F0B979897FDD05D93821E3E6BD4E /* BLECore.swift */,
+				1B1A288303E707FCCBCB8FE51880073B /* BLECore+LoggingConfig.swift */,
+				A54D8F6195C6B504E646A0F8655DA788 /* BLECoreError.swift */,
+				4DEDC1B56429604663E4DD993E91809C /* BluetoothManager.swift */,
+				3174B1651EAEAD08F5E4A1F28DB99546 /* CBUUIDConvertible.swift */,
+				374A81EE27BFBC11DF46C019432C569A /* Device.swift */,
+				C86B87FECE01C01A91BFB0132D56562D /* DeviceIdentification.swift */,
+				4E86D9A82A610F7B56B6BF5E66E13009 /* DeviceInformation.swift */,
+				348BF33764C8201AFF91C261F7CA8F59 /* DeviceInformationService.swift */,
+				ADF7BB542123D99A4ACB2D66A6D477B2 /* DeviceInformationServiceDelegate.swift */,
+				62DBB98501C0ED08420F33A67DDDBE99 /* DiscoveredDevice.swift */,
+				46262C10F9ED4F1021F53F8D6F2EFDFB /* DiscoveryEvent.swift */,
+				942FBC894AA99C505FFC10E371CBBA69 /* Log+BLECoreCategories.swift */,
+				0420507DFBF93546565E22DF3A20AB15 /* Service.swift */,
+				C8608B016CA0E35B22A9602295C1EF73 /* ServiceIdentification.swift */,
+				3C4FC752D1BC354D539B9E38E96DAF83 /* ServiceSet.swift */,
+				47CFF733D62A809464C89E4BBA045A22 /* Session.swift */,
+				32AF5D9863AEE2C77FFD9797955B33D0 /* SessionDelegate.swift */,
+				388D63B7D41717848ECB7BCE066F9AE8 /* TypedNotification.swift */,
+				6D984E2F53D3F686FB1FDD31B94C496A /* Resources */,
+				768B0078E8F1A7DA105FF34015EABBD4 /* Support Files */,
+			);
+			name = BLECore;
+			path = BLECore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32F811EF7146B4B91FE2BC1D109136C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4C0081A5C22AD5D1C59C96DD6FB482 /* Logging-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CE154936138E0B89ED1510E003916F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27F9E3C2526E9660137597A4ACB82A0 /* Pods-SpatialAudio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA20761E75765819BAFF9087CB78DDB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA495A37BBE9FFA0BEA68C80FD8B305 /* BLECore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF8CC13B1D85EE396BEA15E3A8E46E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69D254CBC188EC60F3B348CA4099E0C /* BoseWearable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4598007D5DF0996CCFA409D6BBC273D5 /* Logging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F534F78BE54760C1ADEC8E890BFBC4 /* Build configuration list for PBXNativeTarget "Logging" */;
+			buildPhases = (
+				32F811EF7146B4B91FE2BC1D109136C9 /* Headers */,
+				3A39E2E386E790580C56E244F5021875 /* Sources */,
+				FB07DC7AE679A10C8A90461A96E621A8 /* Frameworks */,
+				DACBAA25E8E8E3226FD079BC4BB94DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Logging;
+			productName = Logging;
+			productReference = 86D35E041B0A44891DB93920B9CB6B6A /* Logging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEE08843638F39CC53256A6A913155DC /* BoseWearable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC08E31DF52B2F92E4762F254FDDAB92 /* Build configuration list for PBXNativeTarget "BoseWearable" */;
+			buildPhases = (
+				FCF8CC13B1D85EE396BEA15E3A8E46E0 /* Headers */,
+				7AC1ACD29095FBD6EA63E92BB8D49AD6 /* Sources */,
+				1C9094951A29D17E326DA7039F010B4B /* Frameworks */,
+				D84A655833BE4051BBA2B48A5D83C2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27666414AA5431F8B585BCC104565EF8 /* PBXTargetDependency */,
+				BEFAB29AF931D029BD47AB6E518168E7 /* PBXTargetDependency */,
+			);
+			name = BoseWearable;
+			productName = BoseWearable;
+			productReference = 78E1B60FAA342BA5D6EFCDA2E2AC523D /* BoseWearable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D33AF4DB3631C309CE95A88DAC4641F7 /* BLECore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC9F203C977C8CFB9478F2F019D7199 /* Build configuration list for PBXNativeTarget "BLECore" */;
+			buildPhases = (
+				FA20761E75765819BAFF9087CB78DDB7 /* Headers */,
+				AFF0AC1114BC0B065F8AAB5017A4F6DF /* Sources */,
+				6F8A91AE8B450151F2A0466019E86296 /* Frameworks */,
+				358C2A0EF381BD957D1115A8BF391835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CFAAA501684D935E631AAD9F372DC5 /* PBXTargetDependency */,
+			);
+			name = BLECore;
+			productName = BLECore;
+			productReference = 364E956ABA0C47380244F225203E6C36 /* BLECore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEA09E74FECD862B6F9E92075B870BB1 /* Pods-SpatialAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D47F3AF3F4E4B068CCDC11AEB84C8B8 /* Build configuration list for PBXNativeTarget "Pods-SpatialAudio" */;
+			buildPhases = (
+				A4CE154936138E0B89ED1510E003916F /* Headers */,
+				A55D2185206D75E25C1E8D75EB9CE42B /* Sources */,
+				C2C7E77C8BBEEEF0BF0744DA4CCCABA4 /* Frameworks */,
+				9B716B8BC9C804BDE468294ADEEE1D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA24BC46ABFB2AD6E6321C771265E23 /* PBXTargetDependency */,
+				83A3FE5319E684F5FDD1BF7CBAAC94EF /* PBXTargetDependency */,
+				00F009C16DBBF9D14408A1FAD01F4D16 /* PBXTargetDependency */,
+				D0277B50010287C8A0B0446C29B71BB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SpatialAudio";
+			productName = "Pods-SpatialAudio";
+			productReference = 72A36D184B7C3385B1E3FAE35932F7F1 /* Pods_SpatialAudio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE76052227C91283EF2A0B1D783CCC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33AF4DB3631C309CE95A88DAC4641F7 /* BLECore */,
+				CEE08843638F39CC53256A6A913155DC /* BoseWearable */,
+				4598007D5DF0996CCFA409D6BBC273D5 /* Logging */,
+				DEA09E74FECD862B6F9E92075B870BB1 /* Pods-SpatialAudio */,
+				C2F6DB134443C94DFD1479A741254A35 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358C2A0EF381BD957D1115A8BF391835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C727F2509F688C844764F06D16DC97 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B716B8BC9C804BDE468294ADEEE1D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84A655833BE4051BBA2B48A5D83C2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75879FF831D8D0E3F7EFE293F32C043 /* Assets.xcassets in Resources */,
+				C7AF90F146D32CCBF101757A383E73F1 /* DeviceSearchUserInterfaceIOS.storyboard in Resources */,
+				2444571455488148C5BA33F19E6B0C49 /* Localizable.strings in Resources */,
+				69AF4047EA935FB86892A2D5E4D90966 /* SearchUILocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACBAA25E8E8E3226FD079BC4BB94DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A39E2E386E790580C56E244F5021875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B95B0597E3D023DFBC9D14E68B3CF /* Log.swift in Sources */,
+				BB41E8A00CC1DBF8D2A9ACA51469C216 /* LogFormatter.swift in Sources */,
+				509B1FBC61A97EB214D46930ACA6329D /* Logging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC1ACD29095FBD6EA63E92BB8D49AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B027651C1E83382F15EF783805CD96FE /* BoseWearable+LoggingConfig.swift in Sources */,
+				E3D69F7DA556BDA9691F930575EE02FD /* BoseWearable+SearchUI.swift in Sources */,
+				E968ACDC74AB37839B9A9EEA1CBB843B /* BoseWearable-dummy.m in Sources */,
+				40A6C28A8DE243EC5B4B577135A517C6 /* BoseWearable.swift in Sources */,
+				E1B501385D1D53A18ECA931D927B2320 /* BoseWearableDevice.swift in Sources */,
+				52F648C569F5154C45CE8BCC65ECA924 /* BoseWearableError.swift in Sources */,
+				1A91DC0C895EE3F44E56069B48E3D412 /* CancellableResult.swift in Sources */,
+				6FB7F80164BB6A5F81F7D89F9AD056B4 /* ConditionallyUpgradeableBoseDevice.swift in Sources */,
+				FC0ECE786F64DC0494DDAAA5408DBEBA /* Data+HexString.swift in Sources */,
+				3405EE7F71A632B516739D06A4B37E58 /* Data+IntegerByteOrder.swift in Sources */,
+				F14D2D831A4FB909DBB13C12BA782955 /* DeviceListTableViewCell.swift in Sources */,
+				DBD5F313F183A68E1DB9A4DB29597098 /* DeviceListTableViewController.swift in Sources */,
+				B42DE36A59C756F55DCAB88B0A551637 /* DeviceSearchModalViewController.swift in Sources */,
+				BC76C3A98BBFC9DC1B1F299AB6666C52 /* DeviceSearchMode.swift in Sources */,
+				AE96FD35CBB3EDCEB35694BAF4426B27 /* DeviceSearchTask.swift in Sources */,
+				02BDF066E2105871D7F3155933B27220 /* DeviceSearchTaskUserInterface.swift in Sources */,
+				0F69D6A3ECB28CC83254F51C8927296E /* DeviceSearchTaskUserInterfaceDelegate.swift in Sources */,
+				F9FC54C656ED29DB2C299C27214AFF9E /* DeviceSearchUserInterfaceIOS.swift in Sources */,
+				2E411F17D8EC65719BE45E632E2BA178 /* DeviceStatus.swift in Sources */,
+				5D33D22F491C7655204BA60A0F054D0F /* GestureConfiguration.swift in Sources */,
+				362FEAA3C9AB857A85A79190D4CADA0D /* GestureData.swift in Sources */,
+				0FAE620C07AA0289E4D97D3BB0AB73FC /* GestureInformation.swift in Sources */,
+				ECFACC77118E3B3FAC9700E7235EBA87 /* GestureMetadata.swift in Sources */,
+				EF4CC24E338033A467BC79DE68E69F6E /* GestureType.swift in Sources */,
+				23D3172CF2688B6ADD7C901D1B5247B4 /* ListenerToken.swift in Sources */,
+				18B79504EE2821C7E971821F56DBEBCD /* Log+BoseWearableCategories.swift in Sources */,
+				6602ABDDFF3BF90D2124B285856B5FD1 /* Quaternion.swift in Sources */,
+				82C33D2271A616DB678CE6285B05C2A3 /* QuaternionAccuracy.swift in Sources */,
+				1615A86FF17667E1030A197EB3A79FDC /* RemoteWearableDeviceSession.swift in Sources */,
+				B990E6A4A1D336446DECA31E352EB7BB /* Result.swift in Sources */,
+				35189E3E06D4F7CF90DCE62C629FFF35 /* SamplePeriod.swift in Sources */,
+				9B0DED144C1429BCA8CDD96CED21820A /* ScaleFunction.swift in Sources */,
+				21B19494D2353A42238D0F238C8B7FFE /* SensorConfiguration.swift in Sources */,
+				FF1C9E74703ED0A2258462E75B70F639 /* SensorData.swift in Sources */,
+				5B535A237BE29BCC08C1526E653E3252 /* SensorDispatch.swift in Sources */,
+				D0DA9DF399CE2A7BDEB915F80FCA3FA3 /* SensorDispatchHandler.swift in Sources */,
+				6E343D7BED7CD3B3E5885A47D4191313 /* SensorInformation.swift in Sources */,
+				52220DD5D896E8B61F58F45E2769E894 /* SensorMetadata.swift in Sources */,
+				C644AA79117732DF444988020B5311E5 /* SensorSample.swift in Sources */,
+				8C3517A2788DF1709E11F05052C5D2CA /* SensorTimestamp.swift in Sources */,
+				DF29E0B9513D3462D7AF2CCA899386D4 /* SensorType.swift in Sources */,
+				2642DB1D1D373F500405805FA6F0D68E /* SensorValue.swift in Sources */,
+				35ACAF662D80CAC87DBB58969C6A5F2E /* SignalStrength+ImageName.swift in Sources */,
+				514511D26EC649DC27CC2EA24964B03B /* SignalStrength.swift in Sources */,
+				BFB18B1C63398331BC9B5B0A5862C55B /* SimulatedWearableDevice.swift in Sources */,
+				94645D5990E14B31C50CCCDBEE6BDEED /* SimulatedWearableDeviceSession.swift in Sources */,
+				6FC87B71002D812DB9DAF122701ABD8A /* UIApplication+DisplayInfo.swift in Sources */,
+				FE6CDDEAD0FF6FAB6F74231C5636CBFE /* UpgradeableBoseDevice.swift in Sources */,
+				7A7710B2CF7019599FBBCB66CEF900B6 /* Vector.swift in Sources */,
+				4BC37FCE56F30E75AE4C4C61CE359E5B /* VectorAccuracy.swift in Sources */,
+				17800A80273BBD527B59C7B65CC6D9F8 /* WearableDevice+EventListener.swift in Sources */,
+				A518F92516693F945FA0E37C53B36984 /* WearableDevice.swift in Sources */,
+				87807D71F8C35C9CCC841468C1CBD5CF /* WearableDeviceEvent.swift in Sources */,
+				33A11869CC9F47D350A9A2FFB991AFC8 /* WearableDeviceInformation.swift in Sources */,
+				D4A60E323B1C338F1D62C0E2FD7D46AA /* WearableDeviceSession.swift in Sources */,
+				4DAAE3AA542FF421021A176B5B88DA77 /* WearableDeviceSessionDelegate.swift in Sources */,
+				850971022600058F14B9153998B866FA /* WearableSensorService.swift in Sources */,
+				7C021D96C59B80ED1441F1696EFA9201 /* WearableSensorServiceDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55D2185206D75E25C1E8D75EB9CE42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EE8831967D6F7DC7E6D5C7F91AADC3 /* Pods-SpatialAudio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF0AC1114BC0B065F8AAB5017A4F6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30ECE99AC31A58E670798217139FB0 /* BLECore+LoggingConfig.swift in Sources */,
+				0773EDF30080592635EA25800C851007 /* BLECore-dummy.m in Sources */,
+				1F766E55B701AB23BA3D3F9458EEEF63 /* BLECore.swift in Sources */,
+				193488361A6A4C013056E130FCAEAAA2 /* BLECoreError.swift in Sources */,
+				05A240A153B0644C57DF594F13FA1A01 /* BluetoothManager.swift in Sources */,
+				F2CF9FB064CD9B2554D8ED67933CA97F /* CBUUIDConvertible.swift in Sources */,
+				A5EB8024E205DA23458DCD276074D864 /* Device.swift in Sources */,
+				C486AF9123F9CAE7B41B5D06006DB39C /* DeviceIdentification.swift in Sources */,
+				2F67FA730FF2061923B385ECD5F8FDBE /* DeviceInformation.swift in Sources */,
+				93D0896B3615FDE4D48AFFAE7E0F6D57 /* DeviceInformationService.swift in Sources */,
+				7566B3C19D68229A3680C93438D08CF3 /* DeviceInformationServiceDelegate.swift in Sources */,
+				74127C0E05410FC5D5436CE7FACF64B8 /* DiscoveredDevice.swift in Sources */,
+				79EC513A91A9E3448E5858BB7D952636 /* DiscoveryEvent.swift in Sources */,
+				365EBEA739BA77866FF7D0A466D78723 /* Log+BLECoreCategories.swift in Sources */,
+				680B52F56E55ADB29D4516F2A0F8A205 /* Service.swift in Sources */,
+				18162810559E2D1BC7500FE9CB365772 /* ServiceIdentification.swift in Sources */,
+				072BFED6A6818814FD1FDDCA95E259A4 /* ServiceSet.swift in Sources */,
+				A03D9C1F7888CC4B8F11CA10FB2D0C12 /* Session.swift in Sources */,
+				CCA006E139D0688A01F0F993EEAFA9FE /* SessionDelegate.swift in Sources */,
+				8575D420DB72ABE6EB47534E921FFFDE /* TypedNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00F009C16DBBF9D14408A1FAD01F4D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Logging;
+			target = 4598007D5DF0996CCFA409D6BBC273D5 /* Logging */;
+			targetProxy = 823C8D7F54B743BCB690AE038A5D46AA /* PBXContainerItemProxy */;
+		};
+		27666414AA5431F8B585BCC104565EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLECore;
+			target = D33AF4DB3631C309CE95A88DAC4641F7 /* BLECore */;
+			targetProxy = 19C7F784D47BA4E22B8012B5F36642D9 /* PBXContainerItemProxy */;
+		};
+		83A3FE5319E684F5FDD1BF7CBAAC94EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoseWearable;
+			target = CEE08843638F39CC53256A6A913155DC /* BoseWearable */;
+			targetProxy = AB0109C873846240166C14F8A3E07080 /* PBXContainerItemProxy */;
+		};
+		8DA24BC46ABFB2AD6E6321C771265E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLECore;
+			target = D33AF4DB3631C309CE95A88DAC4641F7 /* BLECore */;
+			targetProxy = 9E2007F76FDCCC3B499DE4173FD0885A /* PBXContainerItemProxy */;
+		};
+		A0CFAAA501684D935E631AAD9F372DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Logging;
+			target = 4598007D5DF0996CCFA409D6BBC273D5 /* Logging */;
+			targetProxy = 49B02B26725A5912DE284E9F65F11686 /* PBXContainerItemProxy */;
+		};
+		BEFAB29AF931D029BD47AB6E518168E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Logging;
+			target = 4598007D5DF0996CCFA409D6BBC273D5 /* Logging */;
+			targetProxy = A3164BC1655426DF9F55D16EB94A0FD5 /* PBXContainerItemProxy */;
+		};
+		D0277B50010287C8A0B0446C29B71BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = C2F6DB134443C94DFD1479A741254A35 /* SwiftLint */;
+			targetProxy = 644920F5690E85C372DBC86F8D1494BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D0E66533AB2DEBB1484CFEA73EE9BF6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D7550BCC88906553EFFF0B92A402E0 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Modules/BoseWearable/Source/Resources;
+			sourceTree = "<group>";
+		};
+		514A4512AA309BC376EBEF88541F0C14 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523FC6383BFF3F115BD328FB27259A44 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Modules/BLECore/Source/Resources;
+			sourceTree = "<group>";
+		};
+		E88405A819B1D8C33BF475C16209835E /* SearchUILocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD83B980130B86C842C0EE08FF58437 /* SearchUILocalizable.strings */,
+			);
+			name = SearchUILocalizable.strings;
+			path = Extensions/BoseWearable/SearchUI/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041FD3B46A21D2A2FBB96B1A8F2A1466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		18F41EFCACC750082F31F7161CFAD099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2249819802C75A64F67E5D3C46F6E8 /* Logging.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Logging/Logging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Logging/Logging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Logging/Logging.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37FFEC631FFF1C0EA2D925579FF16E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26665A1F1EC45D2B762C9AF32945A5F9 /* BLECore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLECore/BLECore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLECore/BLECore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BLECore/BLECore.modulemap";
+				PRODUCT_MODULE_NAME = BLECore;
+				PRODUCT_NAME = BLECore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D2C3A7F9CB0C7AD4FBEA3657F104047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		49039C9B3F92325130845218A047B9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3254C237E1B1A445D4F44B80D0DA5EF8 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A6D0A54350D1A6F3D82C4DABECB003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26665A1F1EC45D2B762C9AF32945A5F9 /* BLECore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLECore/BLECore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLECore/BLECore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BLECore/BLECore.modulemap";
+				PRODUCT_MODULE_NAME = BLECore;
+				PRODUCT_NAME = BLECore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76C8E33CBC803BA048211C1079C38954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C4F845ECF4F51B50A9D4EE20AA74A1 /* BoseWearable.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BoseWearable/BoseWearable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BoseWearable/BoseWearable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BoseWearable/BoseWearable.modulemap";
+				PRODUCT_MODULE_NAME = BoseWearable;
+				PRODUCT_NAME = BoseWearable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C1E0EA3CEE45A8D7208CEB1C35A2610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C4F845ECF4F51B50A9D4EE20AA74A1 /* BoseWearable.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BoseWearable/BoseWearable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BoseWearable/BoseWearable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BoseWearable/BoseWearable.modulemap";
+				PRODUCT_MODULE_NAME = BoseWearable;
+				PRODUCT_NAME = BoseWearable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		994EA377A08A7501FD0969BDDF68B946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271A3D6B46EA316940210B7AE698F38E /* Pods-SpatialAudio.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpatialAudio/Pods-SpatialAudio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpatialAudio/Pods-SpatialAudio.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4234DC641ED181337DEED389F3F6DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72246C7F7AD3FE689EA8B99B6B0549F1 /* Pods-SpatialAudio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpatialAudio/Pods-SpatialAudio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpatialAudio/Pods-SpatialAudio.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC819B62B2910C49326513EC99123B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2249819802C75A64F67E5D3C46F6E8 /* Logging.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Logging/Logging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Logging/Logging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Logging/Logging.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAA519734681B358008D6A83751285DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3254C237E1B1A445D4F44B80D0DA5EF8 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC9F203C977C8CFB9478F2F019D7199 /* Build configuration list for PBXNativeTarget "BLECore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A6D0A54350D1A6F3D82C4DABECB003 /* Debug */,
+				37FFEC631FFF1C0EA2D925579FF16E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D47F3AF3F4E4B068CCDC11AEB84C8B8 /* Build configuration list for PBXNativeTarget "Pods-SpatialAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4234DC641ED181337DEED389F3F6DA2 /* Debug */,
+				994EA377A08A7501FD0969BDDF68B946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2C3A7F9CB0C7AD4FBEA3657F104047 /* Debug */,
+				041FD3B46A21D2A2FBB96B1A8F2A1466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F534F78BE54760C1ADEC8E890BFBC4 /* Build configuration list for PBXNativeTarget "Logging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC819B62B2910C49326513EC99123B6D /* Debug */,
+				18F41EFCACC750082F31F7161CFAD099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC08E31DF52B2F92E4762F254FDDAB92 /* Build configuration list for PBXNativeTarget "BoseWearable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1E0EA3CEE45A8D7208CEB1C35A2610 /* Debug */,
+				76C8E33CBC803BA048211C1079C38954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE4DA4F60DE95FA016593AF24B0A80C /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49039C9B3F92325130845218A047B9C5 /* Debug */,
+				FAA519734681B358008D6A83751285DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

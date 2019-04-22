@@ -1,0 +1,10 @@
+/* 
+  SearchUILocalizable.strings
+  BoseWearable
+
+  Created by Paul Calnan on 11/7/18.
+  Copyright © 2018 Bose Corporation. All rights reserved.
+*/
+
+"DeviceListTableViewController.noDevice" = "NO DEVICE";
+"DeviceListTableViewController.connected" = "CONNECTED";
